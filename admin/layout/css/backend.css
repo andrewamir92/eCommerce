@@ -1,0 +1,140 @@
+/*start of main*/
+body{
+	background-color: #F4F4F4;
+}
+
+
+/*end of main*/
+
+
+/*start login form*/
+.login h4{
+	color: gray;
+}
+.login{
+	width: 300px;
+	margin:100px auto;
+}
+
+.login input{
+	margin-bottom: 10px;
+}
+.login .form-control{
+	background-color: #EAEAEA;
+}
+.login .btn{
+	background-color: #008dde;
+}
+/*end login form
+
+/* start of navbar */
+.test{
+	position: relative;
+	/*left: 700px;*/
+	
+}
+
+
+/*end of navbar*/
+
+.asstrick{
+	font-size: 30px;
+	color: red;
+	
+}
+
+.show_password{
+	font-size: 23px;
+}
+
+
+/*dashboard*/
+
+.dashboard .edit{
+	color: white;
+}
+.dashboard a{
+	text-decoration: none;
+	color: white;
+}
+.dashboard .edit{
+	background-color: #EEE;
+	border: 2px solid #CCC;
+	border-radius: 7%;
+	padding: 20px;
+	font-size: 30px;
+}
+.dashboard .edit span{
+	font-size: 50px;
+}
+.dashboard .members{
+	background-color: #3498db;
+}
+.dashboard .pending{
+	background-color: #c0392b;
+}
+.dashboard .items{
+	background-color: #d35400;
+}
+.dashboard .comments{
+	background-color:#8e44ad; 
+}
+
+.white{
+	background-color: white;
+}
+
+
+.latest-users li{
+	overflow: hidden;
+}
+.active-btn {
+	color: blue;
+}
+
+
+/*start of categories Edit */
+.categories .visibility{
+	color: white;
+	background-color: #c0392b;
+	border-radius:2px;
+	padding: 2px 4px;
+	margin: 0 3px;
+}
+.categories .Allow_Comment{
+	color: white;
+	background-color: #2c3e50;
+	border-radius:2px;
+	padding: 2px 4px;
+	margin: 0 3px;
+}
+.categories .Allow_Ads{
+	color: white;
+	background-color: orange;
+	border-radius:2px;
+	padding: 2px 4px;
+	margin: 0 6px;
+}
+
+/*.categories .btn{
+	position: relative;
+	display: none;
+}*/
+
+.categories .active{
+	color: red;
+}
+
+.categories a{
+	text-decoration: none;
+}
+.categories .hide-btn{
+	display: none;
+}
+.btn-show:hover .hide-btn{
+	display: block;
+}
+
+.categories p{
+	cursor: pointer;
+}
